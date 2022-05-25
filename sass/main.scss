@@ -1,5 +1,6 @@
 @import './utils/variables';
-@import './utils/hidden';
+@import './utils/visually-hidden';
+
 
 
 @import './base/reset';
@@ -13,7 +14,18 @@
 @import './components/btn';
 @import './components/contacts';
 @import './components/title';
+@import './components/socials';
+@import './components/person';
+@import './components/address';
+@import './components/filters';
 
 @import './layouts/page-header';
-@import './layouts/hero ';
-@import './layouts/preferences ';
+@import './layouts/hero';
+@import './layouts/preferences';
+@import './layouts/tasks';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/page-footer';
+@import './layouts/signup';
+@import './layouts/projects';
+@import './layouts/modal';

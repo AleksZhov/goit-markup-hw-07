@@ -18,7 +18,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body>
@@ -147,15 +146,15 @@
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="team__list">
-            <li class="member">
+            <li class="person">
               <img
-                class="member__photo"
+                class="person__photo"
                 src="./images/team1.jpg"
                 alt="Фотография Игоря Демьяненко"
                 width="270"
               />
-              <h3 class="member__name">Игорь Демьяненко</h3>
-              <p class="member__position">Product Designer</p>
+              <h3 class="person__name">Игорь Демьяненко</h3>
+              <p class="person__position">Product Designer</p>
               <ul class="socials">
                 <li class="socials__item">
                   <a href="#" class="socials__link">
@@ -187,15 +186,15 @@
                 </li>
               </ul>
             </li>
-            <li class="member">
+            <li class="person">
               <img
-                class="member__photo"
+                class="person__photo"
                 src="./images/team2.jpg"
                 alt="Фотография Ольги Репиной"
                 width="270"
               />
-              <h3 class="member__name">Ольга Репина</h3>
-              <p class="member__position">Frontend Developer</p>
+              <h3 class="person__name">Ольга Репина</h3>
+              <p class="person__position">Frontend Developer</p>
               <ul class="socials">
                 <li class="socials__item">
                   <a href="#" class="socials__link">
@@ -227,15 +226,15 @@
                 </li>
               </ul>
             </li>
-            <li class="member">
+            <li class="person">
               <img
-                class="member__photo"
+                class="person__photo"
                 src="./images/team3.jpg"
                 alt="Фотография Николая Тарасова"
                 width="270"
               />
-              <h3 class="member__name">Николай Тарасов</h3>
-              <p class="member__position">Marketing</p>
+              <h3 class="person__name">Николай Тарасов</h3>
+              <p class="person__position">Marketing</p>
              <ul class="socials">
                 <li class="socials__item">
                   <a href="#" class="socials__link">
@@ -267,15 +266,15 @@
                 </li>
               </ul>
             </li>
-            <li class="member">
+            <li class="person">
               <img
-                class="member__photo"
+                class="person__photo"
                 src="./images/team4.jpg"
                 alt="Фотография Михаила Ермакова"
                 width="270"
               />
-              <h3 class="member__name">Михаил Ермаков</h3>
-              <p class="member__position">UI Designer</p>
+              <h3 class="person__name">Михаил Ермаков</h3>
+              <p class="person__position">UI Designer</p>
               <ul class="socials">
                 <li class="socials__item">
                   <a href="#" class="socials__link">
@@ -353,7 +352,7 @@
         <ul class="page-footer__wrp">
           <li class="page-footer__item--left">
             <a href="./index.html" class="logo logo--lower"><span class="logo__accent-text">Web</span>Studio</a>
-            <address class="address">
+            <address class="address page-header__address">
               <ul class="address__list">
                 <li class="address__item"><a href="#" class="address__link">г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li class="address__item"><a href="mailto:info@example.com" class="address__link">info@example.com</a></li>
@@ -362,7 +361,7 @@
             </address>
           </li>
           <li class="page-footer__item--center">
-            <h2 class="socials__title">Присоединяйтесь</h2>
+            <h2 class="page-footer__title">Присоединяйтесь</h2>
            <ul class="socials">
                 <li class="socials__item socials__item--dark">
                   <a href="#" class="socials__link">
@@ -395,11 +394,11 @@
               </ul>
           </li>
           <li class="signup"> 
-            <h2 class="signup__title">Подпишитесь на рассылку</h2>
+            <h2 class="page-footer__title">Подпишитесь на рассылку</h2>
             <form class="signup__form" name="signup-form" autocomplete="on" novalidate>
           <label class="signup__title" for="email"></label>
          <input class="signup__field"type="email" name="email" placeholder="E-mail">
-          <button class="btn" type="submit">Подписаться <svg class="signup__icon">
+          <button class="btn signup__btn" type="submit">Подписаться <svg class="signup__icon">
             <use href="./images/icons.svg#icon-signup"></use>
                   </svg>
           </svg></button>
@@ -447,7 +446,7 @@
             <a class="user-agreement-link" href="#">Условия договора</a>
             </label></div>
           </form>
-          <button class="btn" type="submit">Отправить</button>
+          <button class="btn modal-submit-btn " type="submit">Отправить</button>
       
       </div>
     </div>
