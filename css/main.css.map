@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/main.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/utils/_variables.scss","../sass/base/_reset.scss","../sass/components/_section.scss","../sass/components/_container.scss","../sass/components/_logo.scss","../sass/components/_nav.scss","../sass/components/_contacts.scss","../sass/components/_btn.scss","../sass/layouts/_page-header.scss","../sass/layouts/_hero.scss"],"names":[],"mappings":";AAAA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACVF;EACE;EACA;EACA;EACA;;;AAEF;AACA;EACE;EACA;EACA;EACA;;;AAEF;EACE;;;AAEF;EAAI;;;AAEJ;EACE;EACA;;;ACpBF;EACE;EACA;;;ACFF;EACE;EACA;EACA;EACA;EACA;;;ACLF;EAEE;EACA;EACA;EACA;EACA;;;AAGF;AACA;EACE;;;AAEF;EAAe;;;AACf;EAAc;;;ACdd;AACA;EAAmB;EACjB;;;AAEF;EACE;;;AAEF;AACA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACC;EACD;EACA;;;AAGF;AAAA;EAEE;;;AAGF;EACE;;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACrCF;EAAW;EACT;;;AAIF;AACA;EACE;;;AAEF;EACE;;;AAGF;AACA;EACE;EACA;;;AAEF;AAAA;EAEE;;;AAGF;AAAA;EAEE;;;AAEE;AAAA;EAEF;EACA;;;AAGF;EACE;EACA;EACC;;;AAEH;EACE;EACA;;;AAEF;EACE;EACA;;;AC5CF;AACA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACF;EACA;;;ADhBA;EAAW;EACT;;;AAIF;AACA;EACE;;;AAEF;EACE;;;AAGF;AACA;EACE;EACA;;;AAEF;AAAA;EAEE;;;AAGF;AAAA;EAEE;;;AAEE;AAAA;EAEF;EACA;;;AAGF;EACE;EACA;EACC;;;AAEH;EACE;EACA;;;AAEF;EACE;EACA;;;AE5CF;AACA;EAAoB;EAClB;;;AAGF;AACA;EACE;EACA;EACA;;;AAEF;EAAoB;;;ACXpB;AACA;EACE;EAGA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA","file":"main.css"}

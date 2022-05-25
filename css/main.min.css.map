@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/main.scss"
-    ],
-    "names": [],
-    "file": "main.min.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/utils/_variables.scss","../sass/base/_reset.scss","../sass/components/_section.scss","../sass/components/_container.scss","../sass/components/_logo.scss","../sass/components/_nav.scss","../sass/components/_contacts.scss","../sass/components/_btn.scss","../sass/layouts/_page-header.scss","../sass/layouts/_hero.scss"],"names":[],"mappings":"AAAA,MACE,8BACA,gCACA,wBACA,4BACA,sCACA,iCACA,uBACA,0CACA,wBACA,wBCVF,KACE,gCACA,oCACA,8BACA,qBAGF,GACE,gBACA,yBACA,eACA,kBAEF,EACE,qBAEF,mBAEA,WACE,eACA,kBCpBF,SACE,iBACA,oBCFF,WACE,iBACA,kBACA,aACA,kBACA,mBCLF,MAEE,iCACA,qBACA,gBACA,eACA,iBAIF,mBACE,0BAEF,6CACA,sCCbA,6BACE,mBAEF,4BACE,kBAGF,WACE,iBACA,oBACA,qBACA,gBACA,eACA,iBACA,qBACC,gCACD,oDACA,kBAGF,kCAEE,0BAGF,SACE,0BAEF,gBACE,kBACA,WACA,cACA,WACA,qCACA,WACA,kBACA,gBCrCF,uBACE,mBAKF,uBACE,iBAEF,iCACE,kBAIF,gBACE,kCACA,4FAEF,4CAEE,0BAGF,+BAEE,cAEE,2CAEF,0BACA,yBAGF,gBACE,qBACA,kBACC,kBAEH,4BACE,WACA,YAEF,0BACE,WACA,YC3CF,KACE,yBACA,qCACA,gBACA,YACA,eACA,gBACA,eACA,iBACA,qBACA,mBACA,uBACA,qBACA,sCACF,oDACA,kBDhBA,uBACE,mBAKF,uBACE,iBAEF,iCACE,kBAIF,gBACE,kCACA,4FAEF,4CAEE,0BAGF,+BAEE,cAEE,2CAEF,0BACA,yBAGF,gBACE,qBACA,kBACC,kBAEH,4BACE,WACA,YAEF,0BACE,WACA,YE3CF,gCACE,mBAIF,aACE,4CACA,iBACA,oBAEF,qCCVA,MACE,sHAGA,iBACA,4BACA,2BACA,cACA,kBACA,qBACA,kBAGF,aACE,yBACA,YACA,iBACA,kBACA,mBACA,gBACA,eACA,iBACA,qBACA","file":"main.min.css"}

@@ -19,27 +19,27 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/main.min.css"
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body>
     <header class="page-header">
       <div class="container header__container">
-        <nav class="header__nav">
-          <a href="./index.html" class="logo"><span class="accent-text">Web</span>Studio</a>
-          <ul class="page-header__list">
-            <li class="page-header__item">
-              <a href="./index.html" class="page-header__link current">Студия</a>
+        <nav class="nav">
+          <a href="./index.html" class="logo page-header__logo logo--upper"><span class="logo__accent-text">Web</span>Studio</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link current">Студия</a>
             </li>
-            <li class="page-header__item">
-              <a href="./portfolio.html" class="page-header__link">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link">Портфолио</a>
             </li>
-            <li class="page-header__item">
-              <a href="#" class="page-header__link">Контакты</a>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="contacts">
+        <ul class="contacts page-header__contacts">
           <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__mail">
               <svg class="contacts__icon contacts__icon--envelope">
@@ -58,7 +58,7 @@
       <!-- Главный заглавный блок-->
       <section class="hero">
         <h1 class="hero__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
+        <button type="button" class="btn" data-modal-open>Заказать услугу</button>
       </section>
       <!--Блок Особенности-->
       <section class="section preferences">
@@ -115,7 +115,7 @@
       <!--Блок Чем мы занимаемся-->
       <section class="section tasks">
         <div class="container">
-          <h2 class="tasks__title">Чем мы занимаемся</h2>
+          <h2 class="title">Чем мы занимаемся</h2>
           <ul class="tasks__list">
             <li class="tasks__item">
               <h3 class="tasks__name">Десктопные приложения</h3>
@@ -145,7 +145,7 @@
       <!--Блок Наша команда-->
       <section class="section team">
         <div class="container">
-          <h2 class="team__title">Наша команда</h2>
+          <h2 class="title">Наша команда</h2>
           <ul class="team__list">
             <li class="member">
               <img
@@ -312,7 +312,7 @@
       </section>
       <section class="section clients">
         <div class="container">
-          <h2 class="clients__title">Постоянные клиенты</h2>
+          <h2 class="title">Постоянные клиенты</h2>
           <ul class="clients__list">
             <li class="clients__item">
               <a href="#" class="clients__link">
@@ -352,7 +352,7 @@
       <div class="container">
         <ul class="page-footer__wrp">
           <li class="page-footer__item--left">
-            <a href="./index.html" class="logo logo--lower"><span class="accent-text">Web</span>Studio</a>
+            <a href="./index.html" class="logo logo--lower"><span class="logo__accent-text">Web</span>Studio</a>
             <address class="address">
               <ul class="address__list">
                 <li class="address__item"><a href="#" class="address__link">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -399,7 +399,7 @@
             <form class="signup__form" name="signup-form" autocomplete="on" novalidate>
           <label class="signup__title" for="email"></label>
          <input class="signup__field"type="email" name="email" placeholder="E-mail">
-          <button class="signup__submit-btn" type="submit">Подписаться <svg class="signup__icon">
+          <button class="btn" type="submit">Подписаться <svg class="signup__icon">
             <use href="./images/icons.svg#icon-signup"></use>
                   </svg>
           </svg></button>
@@ -447,7 +447,7 @@
             <a class="user-agreement-link" href="#">Условия договора</a>
             </label></div>
           </form>
-          <button class="modal-submit-btn" type="submit">Отправить</button>
+          <button class="btn" type="submit">Отправить</button>
       
       </div>
     </div>

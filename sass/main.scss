@@ -1,1 +1,19 @@
-@import "./header";
+@import './utils/variables';
+@import './utils/hidden';
+
+
+@import './base/reset';
+
+
+@import './components/section';
+@import './components/container';
+@import './components/logo';
+@import './components/nav';
+@import './components/contacts';
+@import './components/btn';
+@import './components/contacts';
+@import './components/title';
+
+@import './layouts/page-header';
+@import './layouts/hero ';
+@import './layouts/preferences ';
