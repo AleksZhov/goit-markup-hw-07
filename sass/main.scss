@@ -1,5 +1,8 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/current';
+
+
 
 
 
@@ -18,6 +21,7 @@
 @import './components/person';
 @import './components/address';
 @import './components/filters';
+@import './components/close-btn';
 
 @import './layouts/page-header';
 @import './layouts/hero';

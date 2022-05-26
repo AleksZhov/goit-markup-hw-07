@@ -25,6 +25,20 @@
   margin: -1px;
 }
 
+.current {
+  color: var(--accent-color);
+}
+.current::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: var(--accent-color);
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 28px;
+}
+
 body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
@@ -110,25 +124,8 @@ h1, h2, p, h3 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
-
-.nav__link:hover,
-.nav__link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
-}
-
-.current {
-  color: var(--accent-color);
-}
-
-.current::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  background-color: var(--accent-color);
-  height: 4px;
-  border-radius: 2px;
-  margin-top: 28px;
 }
 
 .contacts {
@@ -141,26 +138,22 @@ h1, h2, p, h3 {
   margin-left: auto;
 }
 
-.contacts__item:not(:last-child) {
-  margin-right: 50px;
-}
-
 /*-------------------Оформление верхнего блока контактов---------------------------*/
 .contacts__item {
   color: var(--secondary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contacts__item:hover,
-.contacts__item:focus {
+.contacts__item:hover, .contacts__item:focus {
   color: var(--accent-color);
+}
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contacts__mail,
 .contacts__tel {
   color: inherit;
 }
-
 .contacts__mail:focus,
 .contacts__tel:focus {
   color: var(--accent-color);
@@ -172,12 +165,10 @@ h1, h2, p, h3 {
   margin-right: 10px;
   fill: currentColor;
 }
-
 .contacts__icon--smartphone {
   width: 10px;
   height: 16px;
 }
-
 .contacts__icon--envelope {
   width: 16px;
   height: 12px;
@@ -212,26 +203,22 @@ h1, h2, p, h3 {
   margin-left: auto;
 }
 
-.contacts__item:not(:last-child) {
-  margin-right: 50px;
-}
-
 /*-------------------Оформление верхнего блока контактов---------------------------*/
 .contacts__item {
   color: var(--secondary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contacts__item:hover,
-.contacts__item:focus {
+.contacts__item:hover, .contacts__item:focus {
   color: var(--accent-color);
+}
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contacts__mail,
 .contacts__tel {
   color: inherit;
 }
-
 .contacts__mail:focus,
 .contacts__tel:focus {
   color: var(--accent-color);
@@ -243,12 +230,10 @@ h1, h2, p, h3 {
   margin-right: 10px;
   fill: currentColor;
 }
-
 .contacts__icon--smartphone {
   width: 10px;
   height: 16px;
 }
-
 .contacts__icon--envelope {
   width: 16px;
   height: 12px;
@@ -280,6 +265,9 @@ h1, h2, p, h3 {
   border-radius: 50%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.socials__item:hover, .socials__item:focus {
+  background-color: var(--accent-color);
+}
 
 .socials__icon {
   width: 20px;
@@ -287,19 +275,13 @@ h1, h2, p, h3 {
   fill: var(--client-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.socials__item:hover,
-.socials__item:focus {
-  background-color: var(--accent-color);
+.socials__item:hover .socials__icon {
+  fill: var(--white-color);
 }
 
 .socials__link {
   display: block;
   margin-top: 9px;
-}
-
-.socials__item:hover .socials__icon {
-  fill: var(--white-color);
 }
 
 .socials__item--dark {
@@ -344,16 +326,12 @@ h1, h2, p, h3 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-style: normal;
 }
-
-/* Цвет почты и номера телефона*/
 .address__item:not(:first-child) > .address__link {
   color: var(--address-color);
   margin-top: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.address__item:not(:first-child) > .address__link:hover,
-.address__item:not(:first-child) > .address__link:focus {
+.address__item:not(:first-child) > .address__link:hover, .address__item:not(:first-child) > .address__link:focus {
   color: var(--accent-color);
 }
 
@@ -377,22 +355,46 @@ h1, h2, p, h3 {
   border: var(--background-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.filter-button:hover,
-.filter-button:focus {
+.filter-button:hover, .filter-button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-/*Оформление активной кнопки*/
 .filter-button.current {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 
-.filter-buttons > .filter-btn:not(:last-child) {
+.filter-btn:not(:last-child) {
   margin-right: 8px;
+}
+
+.close-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  background-color: var(--white-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+.close-btn:hover {
+  cursor: pointer;
+}
+
+.close-btn-icon {
+  width: 18px;
+  height: 18px;
+  fill: black;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-btn:hover .close-btn-icon, .close-btn:focus .close-btn-icon {
+  fill: var(--accent-color);
 }
 
 /*------------------Оформление первой чати хедера и навигационного меню-------------------------*/
@@ -514,7 +516,7 @@ h1, h2, p, h3 {
 }
 
 /*-----------------------------Оформление блока команды-------------------*/
-.section.team {
+.team {
   background-color: var(--secondary-background-color);
 }
 
@@ -540,9 +542,7 @@ h1, h2, p, h3 {
   color: var(--client-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
@@ -561,7 +561,7 @@ h1, h2, p, h3 {
 }
 
 /*Свойства логотипа*/
-.page-header__address {
+.page-footer__address {
   margin-top: 20px;
 }
 
@@ -613,21 +613,10 @@ h1, h2, p, h3 {
   border-radius: 4px;
 }
 
-.signup__-btn {
+.signup__btn {
   display: flex;
-  width: 200px;
-  height: 50px;
   align-items: center;
   margin-left: 12px;
-  padding: 9px 27px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .signup__icon {
@@ -667,30 +656,23 @@ h1, h2, p, h3 {
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.project-item:hover .project-expl {
+  transform: translateY(0);
+}
 
 .project-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-item:hover, .project-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-title {
   text-align: center;
 }
 
-.project-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.project-item:hover .project-expl {
-  transform: translateY(0);
-}
-
-/*Снимаем отступы с крайних карточек*/
-.project-list > .project-item:nth-last-child(-n+3) {
-  margin-bottom: 0px;
-}
-
 /*Задаем установки заглавий для карточек*/
-.project-list .project-title {
+.project-title {
   color: var(--primary-text-color);
   margin-top: 0px;
   margin-bottom: 4px;
@@ -707,7 +689,7 @@ h1, h2, p, h3 {
 }
 
 /*Задаем установки описаний для карточек*/
-.project-list .project-descr {
+.project-descr {
   color: var(--secondary-text-color);
   margin-top: 0;
   margin-bottom: 0;
@@ -758,37 +740,6 @@ h1, h2, p, h3 {
   padding: 40px;
 }
 
-.close-btn {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 9px;
-  right: 9px;
-  background-color: var(--white-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #000000;
-}
-
-.close-btn:hover {
-  cursor: pointer;
-}
-
-.close-btn:hover .close-btn-icon,
-.close-btn:focus .close-btn-icon {
-  fill: var(--accent-color);
-}
-
-.close-btn-icon {
-  width: 18px;
-  height: 18px;
-  fill: black;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-title {
   margin-bottom: 12px;
   font-weight: 700;
@@ -814,14 +765,15 @@ h1, h2, p, h3 {
   cursor: pointer;
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-input:hover,
-.modal-input:focus-visible {
+.modal-input:hover, .modal-input:focus-visible {
   outline: 1px solid var(--accent-color);
 }
-
-.modal-input:hover + .modal-icon {
-  fill: var(--accent-color);
+.modal-input.text {
+  color: rgba(117, 117, 117, 0.5);
+  padding: 12px 16px;
+  width: 100%;
+  height: 110px;
+  resize: none;
 }
 
 .user-agreement {
@@ -833,13 +785,6 @@ h1, h2, p, h3 {
   align-items: center;
   justify-content: center;
 }
-
-.user-agreement-link {
-  color: var(--accent-color);
-  text-decoration: underline;
-  margin-left: 3px;
-}
-
 .user-agreement span {
   display: flex;
   align-items: center;
@@ -852,11 +797,16 @@ h1, h2, p, h3 {
   color: transparent;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .checkbox:checked + .user-agreement span {
   border: none;
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+.user-agreement-link {
+  color: var(--accent-color);
+  text-decoration: underline;
+  margin-left: 3px;
 }
 
 .checked-icon {
@@ -884,16 +834,9 @@ h1, h2, p, h3 {
   fill: black;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-input:hover,
-.modal-input:focus-visible + .modal-icon {
+.modal-icon .modal-input:hover, .modal-input:focus-visible + .modal-icon {
   fill: var(--accent-color);
 }
-
-.modal-input.text {
-  color: rgba(117, 117, 117, 0.5);
-  padding: 12px 16px;
-  width: 100%;
-  height: 110px;
-  resize: none;
+.modal-input:hover + .modal-icon {
+  fill: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */
